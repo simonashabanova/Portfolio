@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;   
+    font-family: Arial; 
+}
+.wrapper {
+    width: 1420px;
+    height: 2000px;
+    background: grey;
+    margin: 0 auto;
+}
+header {
+    width: 100%;
+    height: 100px;
+    background: #fff;
+}
+.logo1 {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+.logo2 {
+    margin: 35px 0 0 20px;
+    float: left;
+}
+ul {
+    width: 500px;
+    height: 60px;
+    float: right;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 40px 0 0 0;
+}
+ul li {
+    float: left;
+    margin: 0 40px 0 0;
+}
+ul li:last-child {
+    margin: 0;
+}
+ul li a {
+    text-decoration: none;
+    font-size: 21px;
+    text-transform: uppercase;
+    color: black;
+}
+ul li a:hover {
+    text-decoration: underline;
+    color: #A48657;
+}
+.pozadina {
+    position: relative;
+    background: black;
+}
+.slika {
+    width: 100%;
+    
+    
+}
+
+.centered {
+    position: absolute;
+    font-size:48px;
+    color: #A48657;
+    text-align: center;
+    width: 100%;
+    margin: 170px 0 0 0;
+    z-index: 555;
+
+    
+}
+
+.centered2 {
+    position: absolute;
+    font-size: 29px;
+    color: #fff;
+    margin: 260px;
+    z-index: 556;
+    text-align: center;
+}
+.slika {
+    opacity: .5;
+}
+
+.button {
+    position: absolute;
+    width: 200px;
+    height: 67px;
+    font-size: 17px; 
+    left: 42%;
+    top: 75%;
+    
+    
+}
